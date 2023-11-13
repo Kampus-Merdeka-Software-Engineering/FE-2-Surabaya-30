@@ -3,26 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harian Noesantara</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Harian Noesantara | Breaking News</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+    <link rel="shortcut icon" href="logo n.ico" type="image/x-icon" />
   </head>
   <body>
-    <div class="fContainer">
-      <nav class="wrapper">
-        <div class="brand">
-          <div class="firstname">Harian</div>
-          <div class="lastname">Noesantara</div>
+    <input type="checkbox" id="check" />
+    <nav>
+      <div class="icon">
+        <img src="./logo.png" width="280px" />
+      </div>
+      <div class="search_box">
+        <input type="search" placeholder="Cari berita..." />
+        <span class="fa fa-search"></span>
+      </div>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">OLAHRAGA</a></li>
+        <li><a href="#">POLITIK</a></li>
+        <li><a href="#">BISNIS</a></li>
+        <li><a href="#">TEKNOLOGI</a></li>
+        <li><a href="#">KESEHATAN</a></li>
+      </ul>
+      <label for="check" class="bar">
+        <span class="fa fa-bars" id="bars"></span>
+        <span class="fa fa-times" id="times"></span>
+      </label>
+    </nav>
+    <section></section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="logo.png" class="logo" />
+          <p>
+            Terus dukung Harian Noesantara sebagai media penyaji informasi masa
+            kini di Indonesia.
+          </p>
         </div>
-        <ul class="navigation">
-          <li><a class="active"#home">Home</a></li>
-          <li><a href="#olahraga">Olahraga</a></li>
-          <li><a href="#politik">Politik</a></li>
-          <li><a href="#bisnis">Bisnis</a></li>
-          <li><a href="#tech">Teknologi</a></li>
-          <li><a href="#kesehatan">Kesehatan</a></li>
-          <li><a href="#lainnya">Lainnya</a></li>
-        </ul>
-      </nav>
-    </div>
+        <div class="col">
+          <h3>
+            Office
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>Soedirman Road</p>
+          <p>Surabaya, Surabaya</p>
+          <p>Jawa Timur, PIN 12345, Indonesia</p>
+          <p class="email-id">harianoesantara@outlook.com</p>
+          <h4>+62 - 123456789</h4>
+        </div>
+        <div class="col">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>
+            Newsletter
+            <div class="underline"><span></span></div>
+          </h3>
+          <form>
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="Enter Your Email ID" required />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright 2020-2023 Harian Noesantara Inc.</p>
+    </footer>
   </body>
 </html>
